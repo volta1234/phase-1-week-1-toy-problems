@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./grades.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>grades</h1>
-    <script src="./grades.css"></script>
+    <div id="gradediv">
+        <h1>calculate student grade</h1>
+        <div>
+            <input placeholder="enter your score" min="0" max="100" type="number" name="" id="score">
+            <button onclick="handleClick(event)">Grade</button>
+            <div id="Grade">E</div>
+        </div>
+    </div>
+    <script src="./grades.js"></script>
 </body>
 </html>

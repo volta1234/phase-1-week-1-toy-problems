@@ -1,0 +1,24 @@
+html{
+    background-color:darkslategrey
+}
+#gradediv{
+    width:75%;
+    border:solid 1px;
+    margin:0 auto;
+}
+h1{
+    text-align: center;
+}
+input{
+    width: 25%;
+}
+input, button{
+    display: block;
+    margin: 5% auto;
+    padding: 5px;
+    font-weight: bolder;
+}
+#Grade{
+    text-align: center;
+    font-size: 2em;
+}
