@@ -1,0 +1,26 @@
+#toy {
+    background-color: blueviolet;
+    padding: 5%;
+}
+#toyy {
+    background-color: antiquewhite;
+    margin-top: 3%;
+}
+.extraincome {
+    display: block;
+}
+#toy input {
+    margin-top: 1.5%;
+    text-align: center;
+    margin-left: 2%;
+    width: 25%;
+}
+#toyy div {
+    font-weight: bold;
+    display: flex;
+    margin-top: 1.5%;
+    padding: 2%;
+}
+span {
+    width: 50%;
+}

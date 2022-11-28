@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./salary.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="toy">
+        <h1>net salary calculator </h1>
+        <input id="basic" type="number" placeholder="enter basic salary" min="0" oninput="handleSalary(event)">
+        <input class="extraincome" type="number" placeholder="enter commuter allowance" min="0" oninput="handleSalary(event)">
+        <input class="extraincome" type="number" placeholder="enter house allowance" min="0" oninput="handleSalary(event)">
+        <input class="extraincome" type="number" placeholder="enter sitting allowance" min="0" oninput="handleSalary(event)">
+        <input class="extraincome" type="number" placeholder="enter holiday allowance" min="0" oninput="handleSalary(event)">
+      <div id="toyy" >
+        <div><span class="labels">NHIF</span> <span id="nhif"></span></div>
+        <div><span class="labels">NSSF</span> <span id="nssf"></span></div>
+        <div><span class="labels">PAYE</span><span  id="paye"></span></div>
+        <div><span class="labels">Taxable income</span> <span  id="TaxablePay"></span></div>
+        <div><span class="labels">Net pay</span> <span id="NetPay"></span></div>
+      </div>
+    </div>
+    <script src="./salary.js"></script>
+
+</body>
+</html>
