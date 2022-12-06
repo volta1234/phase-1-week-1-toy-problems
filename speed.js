@@ -1,5 +1,5 @@
 function carSpeedChecker(speed){
-    if (speed <=70){
+    if (speed >=0 && speed <=70){
         return "OK"
     }
     else if (speed ===75) {
@@ -40,6 +40,9 @@ function carSpeedChecker(speed){
     }
     else if (speed >130) {
         return "License Suspendend"
+    }
+    else {
+        return "invalid"
     }
 }
 function handleClick(event) {

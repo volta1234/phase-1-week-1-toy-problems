@@ -1,18 +1,18 @@
 function studentGrade(score) {
 
-    if (score <40) {
+    if (score >-0 && score <40) {
         return "E"
     }
-    else if (score <=49) {
+    else if (score >=40 && score <=49) {
         return "D"
     }
-    else if (score <=59) {
+    else if (score >=50 && score <=59) {
         return "C"
     }
-    else if (score <=79) {
+    else if (score >=60 && score <=79) {
         return "B"
     }
-    else if (score <=100) {
+    else if (score >=80 && score <=100) {
         return "A"
     }
     else {
